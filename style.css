@@ -1,0 +1,367 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booki {
+    width: 62px;
+    height: 20px;
+    margin: 30px 50px 30px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    width: 344px;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0px 50px;
+}
+
+nav a {
+    padding-top: 16px;
+}
+
+.a-propos {
+    margin-left: 68px;
+}
+
+a:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 15px;
+    color: #0065FC;
+}
+
+main {
+    width: auto;
+    padding: 0px 50px 0px 50px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 4px 0px 4px 0px;
+    margin: 0px;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px 0px 0px;
+    text-align: start;
+}
+
+.barre-recherche {
+    
+    width: 377px;
+    height: 49px;
+    margin: 35px 0px;
+}
+
+.barre-recherche form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cta {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 16px 15px 16px;
+    width: 132px;
+    height: 49px;
+}
+
+.fa-location-dot {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    width: 50px;
+    height: 49px;
+}
+
+.ville {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 147px;
+    height: 47px;
+    border: 1px solid #F2F2F2;
+    padding: 0px;
+}
+
+.filtres {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filtre-p  {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 14px 15px 14px 0px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.bouton {
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 19px 15px 19px;
+    border-radius: 25px;
+    border: 1px solid #D9D9D9;
+    background-color: white;
+    cursor: pointer;
+}
+
+.fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire {
+    font-size: 22px;
+    margin-right: 10px;
+    color: #0065FC;
+    width: 22px;
+    height: 22px;
+}
+ .bouton:hover {
+    background-color: #DEEBFF;
+}
+
+.info-bar {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 35px 0px 35px 0px ;
+}
+
+.info-bar , p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.offres {
+    border-radius: 15px;
+    padding: 30px;
+    width: 870px;
+    height: 585px;
+    background-color: #F2F2F2;
+    margin-right: 40px;
+}
+
+h2 {
+    margin: 0px 0px 30px 0px;
+}
+
+.photo-de-chambre {
+    width: 260px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 207px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding-bottom: 15px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card-content{
+    padding: 0px 15px;
+}
+
+.card-title{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 4px 0px 0px 0px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 8px 0px;
+}
+
+.card-rating {
+    display: flex;
+    color: #0065FC;
+    padding-top: 8px;
+}
+
+.fa-star {
+    padding: 0px 1px;
+}
+
+.neutral-star{
+    color: #F2F2F2;
+}
+
+.section-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.afficher-plus {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section-groupe {
+    display: flex;
+}
+
+.populaires {
+    border-radius: 15px;
+    padding: 30px;
+    /* width: 430px; */
+    /* height: 585px; */
+    background-color: #F2F2F2;
+}
+
+.card-populaire {
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 146px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: 5px solid white;
+    /* padding-bottom: 10px; */
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.photo-de-chambre2 {
+    width: 123px;
+    height: 146px;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    
+}
+
+.card-content-populaire {
+    width: 300px;
+    padding: 10px 5px 5px 15px;
+}
+
+.card-text-populaire{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 85px;
+    gap: 5px;
+    margin-bottom: 24px;
+}
+
+.card-title-populaire {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-subtitle-populaire {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0px 0px 0px;
+}
+
+.card-rating-populaire {
+    display: flex;
+    color: #0065FC;
+    padding-top: 14px;
+}
+
+.les-plus-populaire {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-chart-line {
+    font-size: 18px;
+    padding-top: 4px;
+    color: #0065FC;
+}
+
+.card-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-activite {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-activite-marseille {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.card-activite {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 440px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);   
+}
+
+.photo-activite {
+    width: 330px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-title-activite {
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+    object-fit: cover;
+}
