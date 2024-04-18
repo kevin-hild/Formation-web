@@ -2,8 +2,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 header {
-    width: 100%;
     height: 80px;
     margin-bottom: 30px;
     display: flex;
@@ -13,7 +17,7 @@ header {
 .booki {
     width: 62px;
     height: 20px;
-    margin: 30px 50px 30px 50px;
+    margin: 30px 50px;
 }
 
 a {
@@ -22,7 +26,6 @@ a {
 }
 
 nav {
-    width: 344px;
     height: 35px;
     display: flex;
     justify-content: flex-end;
@@ -45,14 +48,13 @@ a:hover {
 }
 
 main {
-    width: auto;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px;
 }
 
 h1 {
     font-size: 22px;
     font-weight: 700;
-    padding: 4px 0px 4px 0px;
+    padding: 4px 0px;
     margin: 0px;
 }
 
@@ -64,8 +66,6 @@ h1 {
 }
 
 .barre-recherche {
-    
-    width: 377px;
     height: 49px;
     margin: 35px 0px;
 }
@@ -81,8 +81,7 @@ h1 {
     background-color: #0065FC;
     color: white;
     border-radius: 0px 15px 15px 0px;
-    padding: 15px 16px 15px 16px;
-    width: 132px;
+    padding: 15px 16px;
     height: 49px;
 }
 
@@ -101,7 +100,6 @@ h1 {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    width: 147px;
     height: 47px;
     border: 1px solid #F2F2F2;
     padding: 0px;
@@ -128,7 +126,7 @@ h1 {
     display: flex;
     font-size: 17px;
     font-weight: 700;
-    padding: 15px 19px 15px 19px;
+    padding: 15px 19px;
     border-radius: 25px;
     border: 1px solid #D9D9D9;
     background-color: white;
@@ -139,8 +137,6 @@ h1 {
     font-size: 22px;
     margin-right: 10px;
     color: #0065FC;
-    width: 22px;
-    height: 22px;
 }
  .bouton:hover {
     background-color: #DEEBFF;
@@ -150,7 +146,7 @@ h1 {
     display: flex;
     align-items: center;
     align-content: center;
-    margin: 35px 0px 35px 0px ;
+    margin: 35px 0px;
 }
 
 .info-bar , p {
@@ -174,10 +170,8 @@ h1 {
 .offres {
     border-radius: 15px;
     padding: 30px;
-    width: 870px;
-    height: 585px;
+    width: 65%;
     background-color: #F2F2F2;
-    margin-right: 40px;
 }
 
 h2 {
@@ -185,7 +179,6 @@ h2 {
 }
 
 .photo-de-chambre {
-    width: 260px;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
     border: 5px solid white;
@@ -199,7 +192,7 @@ h2 {
 .card {
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: 33%;
     height: 207px;
     border-radius: 20px;
     background: #FFFFFF;
@@ -252,25 +245,21 @@ h2 {
 
 .section-groupe {
     display: flex;
+    gap: 40px;
 }
 
 .populaires {
     border-radius: 15px;
     padding: 30px;
-    /* width: 430px; */
-    /* height: 585px; */
+    width: 35%;
     background-color: #F2F2F2;
 }
 
 .card-populaire {
     display: flex;
-    flex-direction: row;
-    width: 430px;
-    height: 146px;
     border-radius: 20px;
     background: #FFFFFF;
     border: 5px solid white;
-    /* padding-bottom: 10px; */
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -283,14 +272,12 @@ h2 {
 }
 
 .card-content-populaire {
-    width: 300px;
     padding: 10px 5px 5px 15px;
 }
 
 .card-text-populaire{
     display: flex;
     flex-direction: column;
-    width: 290px;
     height: 85px;
     gap: 5px;
     margin-bottom: 24px;
@@ -342,21 +329,22 @@ h2 {
     display: flex;
     align-items: flex-start;
     gap: 30px;
+    width: 100%;
 }
 
 .card-activite {
     display: flex;
     flex-direction: column;
-    width: 330px;
-    height: 440px;
+    width: 25%;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);   
 }
 
 .photo-activite {
-    width: 330px;
+    width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .card-title-activite {
