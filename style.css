@@ -5,6 +5,7 @@
 body {
     max-width: 1440px;
     margin: 0 auto;
+    padding-bottom: 58px;
 }
 
 header {
@@ -41,7 +42,7 @@ nav a {
     margin-left: 68px;
 }
 
-a:hover {
+.a-propos:hover , .hebergements:hover {
     border-top: 2px solid #0065FC;
     padding-top: 15px;
     color: #0065FC;
@@ -268,7 +269,6 @@ h2 {
     height: 146px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
-    
 }
 
 .card-content-populaire {
@@ -323,6 +323,7 @@ h2 {
     padding: 30px;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 35px;
 }
 
 .card-activite-marseille {
@@ -352,4 +353,33 @@ h2 {
     margin: 0;
     padding: 20px;
     object-fit: cover;
+}
+
+footer {
+    background-color: #F2F2F2;
+    height: 162px;
+    margin: 0px 50px;
+}
+
+.footer-contenu{
+    display: flex;
+}
+
+footer h3 {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+}
+
+.footer-a-propos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.footer-a-propos-info, a {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* pointer-events: none; */
 }
