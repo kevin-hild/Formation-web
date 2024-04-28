@@ -1,0 +1,386 @@
+/* @media (max-width: 1024px) {
+
+main {
+    flex-direction: column;
+}
+
+.section-groupe {
+    flex-direction: column;
+}
+
+.offres {
+    width: 100%;
+}
+
+.populaires {
+    width: 100%;
+}
+ 
+.section-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 33%;
+}
+
+} */
+
+@media (max-width:1182px) {
+    .section-card {
+        gap: 32px;
+    }
+
+    .card {
+        width: 46%;
+    }
+
+    .card-title-activite {
+        min-height: 35px;
+    }
+
+}
+
+@media (max-width:1079px)  {
+    .section-card {
+        gap: 40px;
+    }
+
+    .card {
+        width: 46%;
+    }
+}
+
+@media (max-width:1024px) {
+
+    body {
+        padding-bottom: 0;
+
+    }
+
+    .fa-magnifying-glass {
+        display: none;
+    }
+
+    .section-groupe {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 50px;
+    }
+
+    .offres {
+        width: 100%;
+    }
+
+    .section-groupe {
+        gap: 50px;
+    }
+
+    .populaires {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .section-title2 {
+        margin-bottom: 20px;
+   }
+
+    .card-column {
+        display: flex;
+        /* max-width: 420px; */
+        flex-direction: row;
+    }
+
+    .card {
+        width: 46%;
+    }
+
+    .section-card {
+        gap: 46px;
+    }
+
+    .card-populaire {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .photo-de-chambre2 {
+        max-width: 92px;
+    }
+
+    .card-title-activite {
+        min-height: 35px;
+    }
+}
+
+/* @media (min-width:861px) and (min-width:966px) {                  
+    .card {
+        width: 46%;
+    }
+    
+    .section-card {
+        gap: 60px;
+      }
+} */
+
+/* a voir pourquoi ça marche pas  */
+
+@media (max-width:860px) {
+    .card-column {
+        flex-direction: column;
+    }
+
+    .filtre3 {
+        gap: 10px;
+    }
+
+    .card-title-activite {
+        min-height: 55px;
+    }
+
+    .card {
+        width: 46%;
+    }
+
+    .section-card {
+        gap: 50px;
+    }
+
+}
+
+@media(max-width:820px) {
+    .section-card {
+        gap: 34px;
+    }
+
+    .card {
+        width: 46%;
+    }
+
+}
+
+@media (max-width:768px) {                                                          
+
+    main {
+        padding: 0px 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: 115px;
+    }
+
+    nav {
+        width: 100%;
+        align-items: center;
+    }
+
+    nav a {
+        width: 50%;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .a-propos:hover , .hebergements:hover {
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+        border-top: none;
+        width: 50%;
+        padding-top: 0px;
+    }
+
+    .recherche {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        display: flex;
+    }
+
+    .filtres {
+        display: block;
+    }
+
+    .a-propos , .hebergements {
+        margin-left: 0px;
+        padding-bottom: 15px;
+    }
+    .section-groupe {
+        padding: 0px;
+        align-items: center;
+    }
+
+    .section-card {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 42px;
+    }
+
+    .offres {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .card {
+        width: 46%;
+        max-width: 420px;
+    }
+
+    .populaires {
+        padding: 20px;
+    }
+
+    .photo-de-chambre2 {
+        max-width: 112px;
+    }
+
+    .card-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bouton {
+        width: 170px;
+        height: 50px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .filtre3 {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .filtre-p {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .card-title-activite {
+        min-height: 55px;
+    }
+
+    .footer-a-propos-info {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .section-activite {
+        padding: 30px 10px;
+    }
+
+    .bouton {
+        width: auto;
+    }
+
+    .card-activite-marseille {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card-activite {
+        /* height: 200px; */
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .photo-activite {
+        height: 141px;
+    }
+
+    .card-text-activite {
+        height: 60px;
+    }
+
+    footer {
+        height: 190px;
+    }
+
+    .card {
+        width: 46%;
+    }
+
+    .section-card {
+        gap: 40px;
+    }
+
+ }
+
+@media (max-width: 539px) {
+    .card {
+        width: 80%;
+    }
+
+    .section-card {
+        justify-content: center;
+    }
+
+} 
+
+@media (max-width:375px) {
+    .bouton {
+        width: 160px;
+    }
+
+    .populaires {
+        order: -1;
+    }
+
+    .offres {
+        background-color: white;
+        margin-bottom: 35px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .section-activite {
+        padding: 30px 10px;
+    }
+
+    .card-activite-marseille {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card-activite {
+        /* height: 200px; */
+        width: 100%;
+    }
+
+    .photo-activite {
+        height: 141px;
+    }
+
+    .card-text-activite {
+        height: 60px;
+    }
+
+    footer {
+        height: 100%;
+        margin: 30px;
+    }
+
+    .footer-contenu {
+        flex-direction: column;
+    }
+
+    .footer-a-propos {
+        width: 100%;
+    }
+
+}
+
+ /* resolution entre 700 et 375 a voir  */
+
+
+ 
