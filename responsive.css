@@ -1,32 +1,8 @@
-/* @media (max-width: 1024px) {
-
-main {
-    flex-direction: column;
+@media (max-width:1440px) {
+    .fa-magnifying-glass {
+    display: none;
+  }
 }
-
-.section-groupe {
-    flex-direction: column;
-}
-
-.offres {
-    width: 100%;
-}
-
-.populaires {
-    width: 100%;
-}
- 
-.section-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.card {
-    width: 33%;
-}
-
-} */
 
 @media (max-width:1182px) {
     .section-card {
@@ -67,11 +43,10 @@ main {
     .section-groupe {
         flex-direction: column;
         align-items: center;
-        padding: 0px 50px;
     }
 
     .offres {
-        width: 100%;
+        width: 93%;
     }
 
     .section-groupe {
@@ -79,8 +54,8 @@ main {
     }
 
     .populaires {
-        width: 100%;
-        padding: 30px;
+        width: 93%;
+        margin-bottom: 35px;
     }
 
     .section-title2 {
@@ -89,21 +64,21 @@ main {
 
     .card-column {
         display: flex;
-        /* max-width: 420px; */
         flex-direction: row;
     }
 
     .card {
-        width: 46%;
+        width: 30%;
     }
 
     .section-card {
-        gap: 46px;
+        gap: 30px;
+        justify-content: center;
     }
 
     .card-populaire {
         width: 100%;
-        max-width: 420px;
+        max-width: 500px;
     }
 
     .photo-de-chambre2 {
@@ -114,18 +89,6 @@ main {
         min-height: 35px;
     }
 }
-
-/* @media (min-width:861px) and (min-width:966px) {                  
-    .card {
-        width: 46%;
-    }
-    
-    .section-card {
-        gap: 60px;
-      }
-} */
-
-/* a voir pourquoi ça marche pas  */
 
 @media (max-width:860px) {
     .card-column {
@@ -158,7 +121,6 @@ main {
     .card {
         width: 46%;
     }
-
 }
 
 @media (max-width:768px) {                                                          
@@ -192,12 +154,8 @@ main {
         padding-top: 0px;
     }
 
-    .recherche {
-        display: none;
-    }
-
     .fa-magnifying-glass {
-        display: flex;
+        display: none;
     }
 
     .filtres {
@@ -215,7 +173,6 @@ main {
 
     .section-card {
         display: flex;
-        /* flex-direction: column; */
         gap: 42px;
     }
 
@@ -287,7 +244,6 @@ main {
     }
 
     .card-activite {
-        /* height: 200px; */
         width: 100%;
         max-width: 420px;
     }
@@ -316,18 +272,113 @@ main {
 
 @media (max-width: 539px) {
     .card {
-        width: 80%;
+        width: 100%;
     }
 
     .section-card {
         justify-content: center;
     }
 
+    .bouton {
+        width: 100%;
+    }
+
+    footer {
+        height: 100%;
+    }  
+    
+    .footer-contenu {
+        flex-direction: column;
+    }
+
+    .footer-a-propos {
+        width: 100%;
+    }
+
 } 
 
+@media (max-width: 412px) {
+
+    .barre-recherche {
+        justify-content: center;
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;
+    }
+
+    .ville {
+        border: none;
+        width: 272px;
+    }
+
+    .recherche {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        display: flex;
+      }
+
+    .cta {
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }  
+
+    .populaires {
+        order: -1;
+    }  
+
+    .bouton {
+        width: 175px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .footer-contenu {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .footer-a-propos {
+        width: 100%;
+    }
+
+    footer {
+        height: 100%;
+        margin: 0;
+    }
+
+}
+
 @media (max-width:375px) {
+
+    .recherche {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        display: flex;
+      }
+
     .bouton {
         width: 160px;
+    }
+
+    .barre-recherche {
+        /* justify-content: center; */
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;
+    }
+
+    .ville {
+        border: none;
+    }
+
+    .cta {
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        font-size: 20px;
     }
 
     .populaires {
@@ -353,7 +404,6 @@ main {
     }
 
     .card-activite {
-        /* height: 200px; */
         width: 100%;
     }
 
@@ -367,11 +417,12 @@ main {
 
     footer {
         height: 100%;
-        margin: 30px;
+        margin: 0;
     }
 
     .footer-contenu {
         flex-direction: column;
+        padding: 30px;
     }
 
     .footer-a-propos {
@@ -380,7 +431,6 @@ main {
 
 }
 
- /* resolution entre 700 et 375 a voir  */
 
 
  
