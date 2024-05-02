@@ -5,32 +5,38 @@
 }
 
 @media (max-width:1182px) {
-    .section-card {
+    .section-carte {
         gap: 32px;
     }
 
-    .card {
+    .carte {
         width: 46%;
     }
 
-    .card-title-activite {
+    .carte-titre-activite {
         min-height: 35px;
+        display: flex;
+        align-items: center;
     }
-
 }
 
 @media (max-width:1079px)  {
-    .section-card {
+    .section-carte {
         gap: 40px;
     }
 
-    .card {
+    .carte {
         width: 46%;
+    }
+
+    .carte-titre-activite {
+        min-height: 35px;
+        display: flex;
+        align-items: center;
     }
 }
 
 @media (max-width:1024px) {
-
     body {
         padding-bottom: 0;
 
@@ -58,25 +64,25 @@
         margin-bottom: 35px;
     }
 
-    .section-title2 {
+    .section-titre2 {
         margin-bottom: 20px;
-   }
+    }
 
-    .card-column {
+    .carte-column {
         display: flex;
         flex-direction: row;
     }
 
-    .card {
+    .carte {
         width: 30%;
     }
 
-    .section-card {
+    .section-carte {
         gap: 30px;
         justify-content: center;
     }
 
-    .card-populaire {
+    .carte-populaire {
         width: 100%;
         max-width: 500px;
     }
@@ -85,46 +91,70 @@
         max-width: 92px;
     }
 
-    .card-title-activite {
+    .carte-titre-activite {
         min-height: 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    .photo-activite {
+        height: 200px;
     }
 }
 
 @media (max-width:860px) {
-    .card-column {
+    .carte-column {
         flex-direction: column;
+        align-items: center;
     }
 
     .filtre3 {
         gap: 10px;
     }
 
-    .card-title-activite {
-        min-height: 55px;
-    }
-
-    .card {
+    .carte {
         width: 46%;
     }
 
-    .section-card {
+    .section-carte {
         gap: 50px;
+    }
+
+    .carte-activite-marseille {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .carte-activite {
+        width: 100%;
+        max-width: 500px;
     }
 
 }
 
 @media(max-width:820px) {
-    .section-card {
+    .section-carte {
         gap: 34px;
     }
 
-    .card {
+    .carte {
         width: 46%;
+    }
+
+    .carte-activite-marseille {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .carte-activite {
+        width: 100%;
+        max-width: 500px;
     }
 }
 
 @media (max-width:768px) {                                                          
-
     main {
         padding: 0px 20px;
     }
@@ -171,7 +201,7 @@
         align-items: center;
     }
 
-    .section-card {
+    .section-carte {
         display: flex;
         gap: 42px;
     }
@@ -181,7 +211,7 @@
         padding: 20px;
     }
 
-    .card {
+    .carte {
         width: 46%;
         max-width: 420px;
     }
@@ -194,7 +224,7 @@
         max-width: 112px;
     }
 
-    .card-column {
+    .carte-column {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -219,16 +249,36 @@
         justify-content: flex-start;
     }
 
-    .card-title-activite {
+    .carte-titre-activite {
         min-height: 55px;
+        display: flex;
+        align-items: baseline;
     }
 
-    .footer-a-propos-info {
+    .carte-activite-marseille {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px; }
+
+    .carte-activite {
+        width: 100%;
+        max-width: 420px;
+    }
+    
+    .photo-activite {
+        height: 141px;
+    }
+    
+    .carte-texte-activite {
+        height: 60px;
+    }    
+
+    .bas-de-page-a-propos-info {
         gap: 10px;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     .section-activite {
         padding: 30px 10px;
     }
@@ -237,13 +287,13 @@
         width: auto;
     }
 
-    .card-activite-marseille {
+    .carte-activite-marseille {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
 
-    .card-activite {
+    .carte-activite {
         width: 100%;
         max-width: 420px;
     }
@@ -252,7 +302,7 @@
         height: 141px;
     }
 
-    .card-text-activite {
+    .carte-texte-activite {
         height: 60px;
     }
 
@@ -260,22 +310,22 @@
         height: 190px;
     }
 
-    .card {
+    .carte {
         width: 46%;
     }
 
-    .section-card {
+    .section-carte {
         gap: 40px;
     }
 
  }
 
 @media (max-width: 539px) {
-    .card {
+    .carte {
         width: 100%;
     }
 
-    .section-card {
+    .section-carte {
         justify-content: center;
     }
 
@@ -287,18 +337,17 @@
         height: 100%;
     }  
     
-    .footer-contenu {
+    .bas-de-page-contenu {
         flex-direction: column;
     }
 
-    .footer-a-propos {
+    .bas-de-page-a-propos {
         width: 100%;
     }
 
 } 
 
 @media (max-width: 412px) {
-
     .barre-recherche {
         justify-content: center;
         border: 1px solid #F2F2F2;
@@ -331,16 +380,16 @@
         width: 175px;
     }
 
-    .card {
+    .carte {
         width: 100%;
     }
 
-    .footer-contenu {
+    .bas-de-page-contenu {
         flex-direction: column;
         padding: 30px;
     }
 
-    .footer-a-propos {
+    .bas-de-page-a-propos {
         width: 100%;
     }
 
@@ -352,7 +401,6 @@
 }
 
 @media (max-width:375px) {
-
     .recherche {
         display: none;
     }
@@ -366,7 +414,6 @@
     }
 
     .barre-recherche {
-        /* justify-content: center; */
         border: 1px solid #F2F2F2;
         border-radius: 15px;
     }
@@ -390,7 +437,7 @@
         margin-bottom: 35px;
     }
 
-    .card {
+    .carte {
         width: 100%;
     }
 
@@ -398,12 +445,12 @@
         padding: 30px 10px;
     }
 
-    .card-activite-marseille {
+    .carte-activite-marseille {
         flex-direction: column;
         gap: 15px;
     }
 
-    .card-activite {
+    .carte-activite {
         width: 100%;
     }
 
@@ -411,7 +458,7 @@
         height: 141px;
     }
 
-    .card-text-activite {
+    .carte-texte-activite {
         height: 60px;
     }
 
@@ -420,17 +467,13 @@
         margin: 0;
     }
 
-    .footer-contenu {
+    .bas-de-page-contenu {
         flex-direction: column;
         padding: 30px;
     }
 
-    .footer-a-propos {
+    .bas-de-page-a-propos {
         width: 100%;
     }
-
 }
-
-
-
  

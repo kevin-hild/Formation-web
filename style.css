@@ -190,7 +190,7 @@ h2 {
     font-weight: 700;
 }
 
-.card {
+.carte {
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -201,23 +201,23 @@ h2 {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card-content{
+.carte-contenu{
     padding: 0px 15px;
 }
 
-.card-title{
+.carte-titre{
     font-size: 16px;
     font-weight: 700;
     margin: 4px 0px 0px 0px;
 }
 
-.card-subtitle {
+.carte-sous-titre {
     font-size: 14px;
     font-weight: 400px;
     margin: 8px 0px;
 }
 
-.card-rating {
+.carte-notation {
     display: flex;
     color: #0065FC;
     padding-top: 8px;
@@ -231,7 +231,7 @@ h2 {
     color: #F2F2F2;
 }
 
-.section-card {
+.section-carte {
     display: flex;
     align-items: flex-start;
     gap: 30px;
@@ -258,7 +258,7 @@ h2 {
     background-color: #F2F2F2;
 }
 
-.card-populaire {
+.carte-populaire {
     display: flex;
     border-radius: 20px;
     background: #FFFFFF;
@@ -273,11 +273,11 @@ h2 {
     object-fit: cover;
 }
 
-.card-content-populaire {
+.carte-contenu-populaire {
     padding: 10px 5px 5px 15px;
 }
 
-.card-text-populaire{
+.carte-texte-populaire{
     display: flex;
     flex-direction: column;
     height: 85px;
@@ -285,19 +285,19 @@ h2 {
     margin-bottom: 24px;
 }
 
-.card-title-populaire {
+.carte-titre-populaire {
     font-size: 16px;
     font-weight: 700;
     margin: 0;
 }
 
-.card-subtitle-populaire {
+.carte-sous-titre-populaire {
     font-size: 14px;
     font-weight: 400;
     margin: 5px 0px 0px 0px;
 }
 
-.card-rating-populaire {
+.carte-notation-populaire {
     display: flex;
     color: #0065FC;
     padding-top: 14px;
@@ -314,7 +314,7 @@ h2 {
     color: #0065FC;
 }
 
-.card-column {
+.carte-column {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -328,14 +328,14 @@ h2 {
     margin-bottom: 35px;
 }
 
-.card-activite-marseille {
+.carte-activite-marseille {
     display: flex;
     align-items: flex-start;
     gap: 30px;
     width: 100%;
 }
 
-.card-activite {
+.carte-activite {
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -350,7 +350,7 @@ h2 {
     object-fit: cover;
 }
 
-.card-title-activite {
+.carte-titre-activite {
     font-size: 16px;
     margin: 0;
     padding: 20px;
@@ -362,7 +362,7 @@ footer {
     margin: 0px 50px;
 }
 
-.footer-contenu{
+.bas-de-page-contenu{
     display: flex;
 }
 
@@ -371,14 +371,14 @@ footer h3 {
     font-size: 18px;
 }
 
-.footer-a-propos {
+.bas-de-page-a-propos {
     padding: 20px;
     display: flex;
     flex-direction: column;
     width: 33%;
 }
 
-.footer-a-propos-info, a {
+.bas-de-page-a-propos-info, a {
     display: flex;
     flex-direction: column;
     gap: 15px;
