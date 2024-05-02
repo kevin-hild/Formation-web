@@ -71,6 +71,7 @@
     .carte-column {
         display: flex;
         flex-direction: row;
+        gap: 20px;
     }
 
     .carte {
@@ -209,6 +210,7 @@
     .offres {
         width: 100%;
         padding: 20px;
+        background-color: white;
     }
 
     .carte {
@@ -218,6 +220,8 @@
 
     .populaires {
         padding: 20px;
+        order: -1;
+        width: 100%;
     }
 
     .photo-de-chambre2 {
@@ -372,6 +376,14 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }  
 
+    .filtre3 {
+        gap: 20px;
+    }
+
+    .carte-column {
+        gap: 15px;
+    }
+
     .populaires {
         order: -1;
     }  
@@ -382,6 +394,14 @@
 
     .carte {
         width: 100%;
+    }
+
+    .section-carte {
+        gap: 15px;
+    }
+
+    .carte-activite-marseille {
+        gap: 15px;
     }
 
     .bas-de-page-contenu {
@@ -428,6 +448,14 @@
         font-size: 20px;
     }
 
+    .filtre3 {
+        gap: 15px;
+      }
+
+    .carte-column {
+        gap: 15px;
+    }  
+
     .populaires {
         order: -1;
     }
@@ -460,6 +488,10 @@
 
     .carte-texte-activite {
         height: 60px;
+    }
+
+    .section-carte {
+        gap: 15px;
     }
 
     footer {
