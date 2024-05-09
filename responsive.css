@@ -4,6 +4,12 @@
   }
 }
 
+@media (max-width:1930px) {
+    .fa-magnifying-glass {
+    display: none;
+  }
+}
+
 @media (max-width:1182px) {
     .section-carte {
         gap: 32px;
