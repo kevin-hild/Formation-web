@@ -194,22 +194,25 @@ h2 {
 .carte {
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 207px;
+    width: 29%;
+    /* height: 207px; */
     border-radius: 20px;
     background: #FFFFFF;
     padding-bottom: 15px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    box-sizing: border-box;
 }
 
 .carte-contenu{
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
+    padding-left: 15px;
 }
 
 .carte-titre{
     font-size: 16px;
     font-weight: 700;
     margin: 4px 0px 0px 0px;
+    height: 30px;
 }
 
 .carte-sous-titre {
@@ -356,6 +359,7 @@ h2 {
     margin: 0;
     padding: 20px;
     object-fit: cover;
+    height: 30px;
 }
 
 footer {
@@ -391,10 +395,258 @@ footer h3 {
     gap: 15px;
 }
 
-.eco , .famille , .romantique , .pepite {
-    width: auto;
-}
-
 .lien-carte {
     gap: 0;
+}
+
+
+.fa-magnifying-glass {
+    display: none;
+}
+
+/* Media Query: Tablette (max 1024px) */
+
+@media (max-width:1024px) {
+    body {
+        padding-bottom: 0;
+
+    }
+
+    .fa-magnifying-glass {
+        display: none;
+    }
+
+    .section-groupe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offres {
+        width: 93%;
+    }
+
+    .section-groupe {
+        gap: 50px;
+    }
+
+    .populaires {
+        width: 93%;
+        margin-bottom: 35px;
+    }
+
+    .section-titre2 {
+        margin-bottom: 20px;
+    }
+
+    .carte-column {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .carte {
+        width: 30%;
+    }
+
+    .section-carte {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .carte-populaire {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .photo-de-chambre2 {
+        max-width: 92px;
+    }
+
+    .carte-titre-activite {
+        min-height: 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    .photo-activite {
+        height: 200px;
+    }
+
+    .filtres {
+        display: block;
+    }
+
+    .filtre-p {
+        text-align: left;
+    }
+
+}
+
+/* Media Query: Smartphone (max 768px) */
+
+@media (max-width:768px) {                                                          
+    main {
+        padding: 0px 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: 115px;
+    }
+
+    nav {
+        width: 100%;
+        align-items: center;
+    }
+
+    nav a {
+        width: 50%;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .a-propos , .hebergements {
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .a-propos:hover , .hebergements:hover {
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+        border-top: none;
+        width: 50%;
+        padding-top: 0px;
+    }
+
+    .carte-populaire {
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .fa-magnifying-glass {
+        display: block;
+    }
+
+    .filtres {
+        display: block;
+    }
+
+    .filtres3 {
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+
+    .a-propos , .hebergements {
+        margin-left: 0px;
+        padding-bottom: 15px;
+    }
+    .section-groupe {
+        padding: 0px;
+        align-items: center;
+    }
+
+    .section-carte {
+        display: flex;
+        gap: 42px;
+    }
+
+    .offres {
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+    }
+
+    .carte {
+        width: 98%;
+        max-width: 768px;
+    }
+
+    .populaires {
+        padding: 20px;
+        order: -1;
+        width: 100%;
+    }
+
+    .photo-de-chambre2 {
+        max-width: 112px;
+    }
+
+    .carte-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bouton {
+        width: 47%;
+        font-size: 14px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .filtre3 {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .filtre-p {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .carte-titre-activite {
+        min-height: 55px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .carte-activite-marseille {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px; }
+
+    .carte-activite {
+        width: 100%;
+        max-width: 768px;
+    }
+    
+    .photo-activite {
+        height: 141px;
+    }
+    
+    .carte-texte-activite {
+        height: 60px;
+    }    
+
+    .bas-de-page-a-propos-info {
+        gap: 10px;
+    }
+
+    .recherche {
+        display: none;
+    }
+
+    .populaires {
+        margin: 0;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    .bas-de-page-contenu {
+        flex-direction: column;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .bas-de-page-a-propos {
+        width: 100%;
+        padding: 0px
+    }
+
+    .section-activite {
+        padding: 10px
+    }
 }
